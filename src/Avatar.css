@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.mainpage{
+    /* width:95%; */
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.avatar-card{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    background:pink;
+    transition: all 0.23s ease;
+}
+.avatar-card:hover{
+    transform: scale(1.10);
+    transition: all 0.23s ease;
+}
+.avatar-card img{
+    width: 200px;
+    height: 200px;
+}
+.mainpage button{
+    margin: 1rem;
+    padding: 0 0.5rem;
+    font-size: 20px;
+    background: pink;
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.mainpage button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
